@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--Chris Wasmund 11/11/2015-->
+
+<html lang="en">
+<head>
+	<title>My JavaScript Game</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+	<body>
+		<div id="wrapper">
+		<header>My JavaScript Game</header>
+		<nav>
+		</nav>
+		<main>
+			<p>Please enter two values to add.</p>
+			<label for ="number1">Number 1</label>
+			<input type="number" id="number1">
+			<br>
+			<label for ="number2">Number 2</label>
+			<input type="number" id="number2">
+			<br>
+			<p id="answer1">Answer goes here.</p>
+			<br>
+			<button type="button" id="button1"> Please click to add the numbers</button>
+			<br>
+
+			<p>Please enter two values to subtract.</p>
+			<label for ="number3">Number 3</label>
+			<input type="number" id="number3">
+			<br>
+			<label for ="number4">Number 4</label>
+			<input type="number" id="number4">
+			<br>
+			<p id="answer2">Answer goes here.</p>
+			<button type="button" id="button2"> Please click to subtract the numbers</button>
+			<br>
+
+			<p>Please enter two values to multiply.</p>
+			<label for ="number5">Number 5</label>
+			<input type="number" id="number5">
+			<br>
+			<label for ="number6">Number 6</label>
+			<input type="number" id="number6">
+			<br>
+			<p id="answer3">Answer goes here.</p>
+			<br>
+			<button type="button" id="button3"> Please click to multiply the numbers</button>
+			<br>
+
+			<p>Please enter two values to divide.</p>
+			<label for ="number7">Number 7</label>
+			<input type="number" id="number7">
+			<br>
+			<label for ="number8">Number 8</label>
+			<input type="number" id="number8">
+			<br>
+			<p id="answer4">Answer goes here.</p>
+			<br>
+			<button type="button" id="button4"> Please click to divide the numbers</button>
+			<br>
+
+			<p>Is 50 greater than 100?</p>
+			<label>Yes</label>
+			<input type="radio" id="radio1" name="50g100">
+			<label>No</label>
+			<input type="radio" id="radio2" name="50g100">
+			<p id="answer"></p>
+			<br>
+
+			<p>Is Chris interested in Ancient Egypt?</p>
+			<label>True</label>
+			<input type="radio" id="radio3" name="egypt">
+			<label>False</label>
+			<input type="radio" id="radio4" name="egypt">
+			<img alt="Tut Coffin" id="tut">
+			<p id="tut1"></p>
+			<br>
+
+			<p>Enter a reserved JavaScript word from the first column.</p>
+			<input type="text" id="reserved">
+			<button type="button" id="button5"> Click here to check to see if the word you entered is a reserved word</button>
+			<p id="reserved1"></p>
+			<br>
+
+			<p>Guess the magic number</p>
+			<input type="number" id="magic">
+			<button type="button" id="button6"> Click here to see if you hit the magic number</button>
+			<p id="magic1"></p>
+		</main>
+		<footer>
+			&copy 2015 by: Chris Wasmund
+		</footer>
+		</div>
+	<script src="game.js"></script>
+	</body>
+</html>
